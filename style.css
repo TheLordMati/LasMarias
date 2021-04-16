@@ -17,6 +17,7 @@ section
     justify-content: space-between;
     align-items: center;
     background: rgb(255, 255, 255);
+    background-image: url("C:/Users/USuario_/Desktop/LasMa/poduct bg.png");
 }
 
 header
@@ -287,21 +288,26 @@ header ul li a:hover
         margin: 10px;
     }
 
+    header ul li a
+    {
+        font-size: 2.3em;
+    }
+
     /* Boton de Menu */
     .toggle
     {
         position: fixed;
         top: 20px;
         right: 20px;
-        width: 40px;
-        height: 40px;
+        width: 100px;
+        height: 100px;
         background: #dd1d50 url(menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
         z-index: 1000;
-        border-radius: 2px;
+        border-radius: 20px;
     }
     /* Boton de Cerrar*/
     .toggle.active
