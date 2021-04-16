@@ -7,6 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 section
 {
     position: relative;
@@ -252,10 +254,10 @@ header ul li a:hover
     padding: 40px 20px;
     margin-top: -40%;
     position: relative;
-    background-image: url("poduct bg.png");
-    background-size: 1000px;
+    background-image: url("C:/Users/USuario_/Desktop/LasMa/poduct bg.png");
+    background-size: 980px;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 /*Fuente de NOVEDADES*/
 .p-heading font
@@ -264,7 +266,7 @@ header ul li a:hover
     color:#d42554;
     font-weight: 700;
     font-size: 2rem;
-    text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    text-shadow: 2px 2px 30px rgba(167,158,245,0.2);
 }
 /*NOVEDADES*/
 .p-heading h3
@@ -272,7 +274,7 @@ header ul li a:hover
     font-family: poppins;
     font-weight: 700;
     font-size: 2rem;
-    text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    text-shadow: 2px 2px 30px rgba(167,158,245,0.2);
 }
 
 .product-container
@@ -295,7 +297,7 @@ header ul li a:hover
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 4px;
+    border-radius: 20px;
     position: relative;
     margin: 10px 30px;
 }
@@ -345,7 +347,7 @@ header ul li a:hover
 
 .p-box:hover
 {
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
     background-color: #FFFFFF;
 }
 
@@ -408,21 +410,26 @@ header ul li a:hover
         margin: 10px;
     }
 
+    header ul li a
+    {
+        font-size: 2.3em;
+    }
+
     /* Boton de Menu */
     .toggle
     {
         position: fixed;
         top: 20px;
         right: 20px;
-        width: 40px;
-        height: 40px;
+        width: 100px;
+        height: 100px;
         background: #dd1d50 url(menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
         z-index: 1000;
-        border-radius: 2px;
+        border-radius: 20px;
     }
     /* Boton de Cerrar*/
     .toggle.active
@@ -445,12 +452,17 @@ header ul li a:hover
 
     .product
     {
-        margin-top: -80%;
+        margin-top: -170%;
+    }
+
+    .thumb
+    {
+        bottom: 290px;
     }
 
 }
 
-@media(max-width: 700px)
+@media(max-width: 400px)
 {
     .imgBox .yerbas
     {
