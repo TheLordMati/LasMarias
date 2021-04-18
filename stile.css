@@ -76,7 +76,7 @@ body
     flex-direction: column;
     text-align: center;
     transition: 0.5s;
-    background: #f9777d;
+    background: #df4175;
     transform: scale(0);
     transition-delay: 0s;
     border-radius: 20px;
@@ -90,7 +90,7 @@ body
 
 .container .box:nth-child(2) .content
 {
-    background: #b4c66a;
+    background: #a84db8;
 }
 
 .container .box:nth-child(3) .content
