@@ -14,7 +14,7 @@ body
     align-items: center;
     min-height: 100vh;
     background: #f7fcff;
-    background-image: url("poduct bg.png");
+    background-image: url("poduct bg2.png");
 }
 .container
 {
@@ -76,7 +76,7 @@ body
     flex-direction: column;
     text-align: center;
     transition: 0.5s;
-    background: #ff3579;
+    background: #f9777d;
     transform: scale(0);
     transition-delay: 0s;
     border-radius: 20px;
@@ -90,12 +90,12 @@ body
 
 .container .box:nth-child(2) .content
 {
-    background: #2ba1ff;
+    background: #b4c66a;
 }
 
 .container .box:nth-child(3) .content
 {
-    background: #c630e0;
+    background: #8b9e3e;
 }
 
 .container .box .content .icono img
